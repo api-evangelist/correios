@@ -1,0 +1,32 @@
+aid: correios
+name: Correios
+description: "Integration to provide information and prepare shipments using Correio's services"
+url: https://cws.correios.com.br/ajuda
+specificationVersion: '0.20'
+created: '2026-05-28'
+modified: '2026-05-28'
+x-source: public-apis/public-apis
+x-category: "Tracking"
+x-tier: 3
+x-tier-reason: bulk-registered-from-public-apis
+tags:
+  - Tracking
+  - Public APIs
+apis:
+  - name: Correios
+    description: "Integration to provide information and prepare shipments using Correio's services"
+    humanURL: https://cws.correios.com.br/ajuda
+    baseURL: https://cws.correios.com.br/ajuda
+    tags:
+      - Tracking
+    properties:
+      - type: Documentation
+        url: https://cws.correios.com.br/ajuda
+common:
+  - type: Website
+    url: https://cws.correios.com.br/ajuda
+  - type: PublicAPIsListing
+    url: https://github.com/public-apis/public-apis
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
