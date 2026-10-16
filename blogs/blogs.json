@@ -1,0 +1,14 @@
+{
+  "repo": "correios",
+  "feeds": [
+    {
+      "source": "https://blog.correios.com.br/feed/",
+      "feed_url": "https://blog.correios.com.br/feed/",
+      "title": "",
+      "saved": 1,
+      "method": "feed"
+    }
+  ],
+  "post_count": 1,
+  "fetched": "2026-10-10T13:15:00Z"
+}
